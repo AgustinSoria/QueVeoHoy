@@ -1,0 +1,19 @@
+{
+  "name": "que-veo-hoy-recursos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./servidor/servidor.js",
+  "scripts": {
+    "start": "nodemon servdor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Soria",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.0",
+    "nodemon": "^2.0.2"
+  }
+}
